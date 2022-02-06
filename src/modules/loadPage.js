@@ -20,19 +20,19 @@ function loadPage() {
         const homeBtn = document.createElement("button")
         homeBtn.setAttribute("id", "home-btn")
         homeBtn.innerHTML = "Home"
-        content.appendChild(homeBtn)
+        navBar.appendChild(homeBtn)
 
         //menu button
         const menuBtn = document.createElement("button")
         menuBtn.setAttribute("id", "menu-btn")
         menuBtn.innerHTML = "Menu"
-        content.appendChild(menuBtn)
+        navBar.appendChild(menuBtn)
 
         //contact button
         const contactBtn = document.createElement("button")
         contactBtn.setAttribute("id", "contact-btn")
         contactBtn.innerHTML = "Contact"
-        content.appendChild(contactBtn)
+        navBar.appendChild(contactBtn)
 
         //create tab content
         const tabContent = document.createElement("main")
