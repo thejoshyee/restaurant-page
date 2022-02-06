@@ -1,5 +1,0 @@
-function loadHome() {
-    
-}
-
-export { loadHome }
