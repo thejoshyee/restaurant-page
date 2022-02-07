@@ -14,7 +14,7 @@ This project was for The Odin Project where we had to practice using DOM manipul
 <img src="https://github.com/thejoshyee/restaurant-page/blob/main/chinese-cuisine-preview.png" width="50%" />
 
 ## Live Demo
-<a href="https://62006fc839dfd38c666660d6--keen-meitner-42437c.netlify.app/">Josh's Chinese Cuisine Restaurant</a>
+<a href="https://62007221886935ee458091b8--focused-curran-e37a1e.netlify.app/">Josh's Chinese Cuisine Restaurant</a>
 
 
 
