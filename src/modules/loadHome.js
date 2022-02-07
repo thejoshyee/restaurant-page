@@ -13,7 +13,7 @@ function createAbout() {
     //about words paragraph
     const aboutWords = document.createElement("p")
     aboutWords.innerHTML = `<p>Do you love Chinese Food? Then you will love Josh's Chinese Cuisine! It's the best in San Diego, CA!</p>
-    <p>You will get authentic Hong Kong Style food with all your favorite goodies like Chow Fun, General Chicken, Lo Sa Bao, 
+    <p>You will get authentic Hong Kong Style chinese food like all your favorite goodies such as Chow Fun, General Chicken, Lo Sa Bao, 
     Ham Yu Guy Lop Fan, Scallop Fried Rice, Fried Tofu, Flounder and much much more!</p>
     <p>So stop on by and say hello! We love meeting new people and sharing our Chinese culture all around San Diego!</p>`
 
