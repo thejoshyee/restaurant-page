@@ -8,7 +8,7 @@ function loadPage() {
     //append header to content
     content.appendChild(header)
     //header title
-    header.textContent = `Josh's Chinese Cuisine`
+    header.textContent = `JOSH'S CHINESE CUISINE`
 
     //create nav
     const navBar = document.createElement("nav")
@@ -38,6 +38,18 @@ function loadPage() {
         const tabContent = document.createElement("main")
         tabContent.setAttribute("id", "tab-content")
         content.appendChild(tabContent)
+
+
+    //create footer
+
+  
+    const footer = document.createElement("footer")
+    footer.setAttribute("class", "footer")
+    footer.innerHTML = `Josh's Chinese Food 2022`
+    content.appendChild(footer)
+    
+
+    
 
 }
 

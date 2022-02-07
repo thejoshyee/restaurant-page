@@ -1,14 +1,15 @@
 
-function createImageContainer(src, alt, text, price) {
+function createImageContainer(src, alt, text, about, price, className) {
 
-    //create flex container for image gallery
+    //create container for image gallery
     const container = document.createElement("div")
-    container.classList.add("container")
+    container.classList.add("menu-container")
 
     //create images and set source and alt text
     const img = document.createElement("img")
     img.setAttribute("src", src)
     img.setAttribute("alt", alt)
+    img.setAttribute("class", className)
 
     //description for images
     const descImg = document.createElement("div")
@@ -18,12 +19,17 @@ function createImageContainer(src, alt, text, price) {
     foodName.innerHTML = text
     foodName.classList.add("food-name")
 
+    const aboutFood = document.createElement("div")
+    aboutFood.innerHTML = about
+    aboutFood.classList.add("about-food")
+
     const cost = document.createElement("div")
     cost.innerHTML = price
     cost.classList.add("cost")
 
     //append item details to description
     descImg.appendChild(foodName)
+    descImg.appendChild(aboutFood)
     descImg.appendChild(cost)
 
     //append desc and img to container
@@ -46,14 +52,18 @@ function loadMenu() {
             "https://i2.wp.com/hipfoodiemom.com/wp-content/uploads/2014/10/Beef-Chow-Fun_main-2-500x375.jpg",
             "Chow Fun Noodles",
             "Chow Fun Noodles",
-            "$8.00"
+            "Flat Stir Fried Noodles with beef or chicken.",
+            "- $8.00",
+            "chowfun"
         ),
 
         createImageContainer(
             "https://www.dinneratthezoo.com/wp-content/uploads/2019/07/general-tsos-chicken-4.jpg",
             "General Chicken",
             "General Chicken",
-            "$9.00"
+            "The best fried chicken dripped in sauce that you'll love forever.",
+            "- $9.00",
+            "general-chicken"
         )
     ]
 

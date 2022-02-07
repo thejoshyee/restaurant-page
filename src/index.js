@@ -16,6 +16,8 @@ function addNavEvents() {
 
 }
 
+
+
 function initialPageLoad() {
     //nav bar & initial page
     loadPage()
@@ -23,4 +25,6 @@ function initialPageLoad() {
     loadHome()
     //click events for menu
     addNavEvents()
+
 }
+

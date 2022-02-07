@@ -1,14 +1,29 @@
 /* Top Header & Nav */
+body {
+    margin: 0;
+    background-color: rgb(44, 45, 48);
+    font-family: 'Mulish', sans-serif;
+}
 
 #content {
     max-width: 100%;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
 }
+
 
 #header {
     text-align: center;
-    font-size: 2rem;
+    color: white;
+    font-size: 4rem;
+    padding-top: 1em;
+    background-color: rgb(150, 29, 29);
+    padding-bottom: 1em;
+    font-family: 'Bebas Neue', cursive;
+
 }
 
 #nav-bar {
@@ -16,10 +31,135 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
 }
 
 #home-btn, #menu-btn, #contact-btn {
     border: none;
-    background-color: tan;
+    color: rgb(57, 57, 57);
+    background-color: rgb(251, 188, 0);
+    font-size: 1.5rem;
+    margin-bottom: 1.5em;
+    max-width: 100%;
+    width: 100%;
+    cursor: pointer;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#home-btn:hover, #menu-btn:hover, #contact-btn:hover {
+    color: rgb(150, 29, 29);
+    transition: 0.2s;
+}
+
+/* About Page Styles */
+
+#about-container{
+    padding-left: 5em;
+    padding-right: 5em;
+    max-width: 100%;
+    padding-bottom: 5em;
+    display: flex;
+    gap: 1.5em;
+    flex-direction: column;
+
+}
+
+.welcome-title {
+    font-weight: 700;
+}
+
+.home-image {
+    max-width: 100%;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+/* Menu Page Styles */
+
+.menu-container {
+    display: flex;
+    gap: 1em;
+    padding: 2em;
+    flex-direction: column;
+    
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.cost {
+    font-weight: 700;
+    color: red;
+}
+
+.chowfun {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.general-chicken {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.food-name {
+    font-weight: 700;
+}
+
+/* Contact Page Styles */
+
+.contact-container {
+    padding-left: 5em;
+    padding-right: 5em;
+    width: 75%;
+    padding-bottom: 5em;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    padding: 3em;
+    font-size: 0.8rem;
+}
+
+/* Media Queries */
+@media (min-width: 720px) {
+    #about-container{
+        flex-direction: row;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-container, .description {
+        flex-direction: row;
+    }
+
+    .chowfun {
+        width: 200px;
+        height: 300px;
+        object-fit: cover;
+    }
+    
+    .general-chicken {
+        width: 200px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .home-image {
+        width: 200px;
+        height: 300px;
+        object-fit: cover;
+    }
 
 }
