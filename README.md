@@ -8,6 +8,7 @@ This project was for The Odin Project where we had to practice using DOM manipul
 - Javascript
   - DOM Manipuation
   - Import / Export
+- Webpack
 
 ## Preview
 <img src="https://github.com/thejoshyee/restaurant-page/blob/main/chinese-cuisine-preview.png" width="50%" />
